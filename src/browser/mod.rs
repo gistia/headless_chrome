@@ -187,7 +187,7 @@ impl Browser {
     ///
     /// Wait timeout: 10 secs
     pub fn wait_for_initial_tab(&self) -> Result<Arc<Tab>> {
-        util::Wait::with_timeout(Duration::from_secs(10))
+        util::Wait::with_timeout(Duration::from_secs(600))
             .until(|| self.inner.tabs.lock().unwrap().first().map(Arc::clone))
             .map_err(Into::into)
     }

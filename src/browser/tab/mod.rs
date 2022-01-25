@@ -228,7 +228,7 @@ impl Tab {
                 username: None,
                 password: None,
             })),
-            default_timeout: Arc::new(RwLock::new(Duration::from_secs(20))),
+            default_timeout: Arc::new(RwLock::new(Duration::from_secs(600))),
             event_listeners: Arc::new(Mutex::new(Vec::new())),
             slow_motion_multiplier: Arc::new(RwLock::new(0.0)),
         };
