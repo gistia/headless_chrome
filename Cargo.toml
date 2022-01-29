@@ -1,12 +1,12 @@
 [package]
-name = "headless_chrome"
-version = "1.0.4"
+name = "mdbook-pdf-headless_chrome"
+version = "0.1.0"
 authors = ["Alistair Roche <alistair@sunburnt.country>"]
 edition = "2021"
-description = "Control Chrome programatically"
+description = "A fork from headless_chrome for publishing mdbook-pdf"
 license = "MIT"
 homepage = "https://github.com/atroche/rust-headless-chrome"
-repository = "https://github.com/atroche/rust-headless-chrome"
+repository = "https://github.com/HollowMan6/rust-headless-chrome"
 readme = "README.md"
 
 [dependencies]

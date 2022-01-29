@@ -1,5 +1,8 @@
-# Headless Chrome
+# mdbook-pdf Headless Chrome
 
+A [forked version](https://github.com/HollowMan6/rust-headless-chrome) from https://github.com/atroche/rust-headless-chrome used by [mdbook-pdf](https://github.com/HollowMan6/mdbook-pdf) for the latest version and expanding some response timeout to 600 seconds.
+
+<!-- 
 [![Build Status](https://github.com/atroche/rust-headless-chrome/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/atroche/rust-headless-chrome/actions/workflows/ci.yml)
 [![Crate](https://img.shields.io/crates/v/headless_chrome.svg)](https://crates.io/crates/headless_chrome)
 [![API](https://docs.rs/headless_chrome/badge.svg)](https://docs.rs/headless_chrome)
@@ -138,4 +141,4 @@ default-features = false
 
 ## Contributing
 
-Pull requests and issues are most welcome, even if they're just experience reports. If you find anything frustrating or confusing, let me know!
+Pull requests and issues are most welcome, even if they're just experience reports. If you find anything frustrating or confusing, let me know! -->
