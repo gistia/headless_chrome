@@ -1,5 +1,5 @@
 [package]
-name = "mdbook-pdf-headless_chrome"
+name = "headless_chrome"
 version = "0.1.3"
 authors = ["Alistair Roche <alistair@sunburnt.country>"]
 edition = "2021"
